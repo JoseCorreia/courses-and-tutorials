@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5,100px);
+    grid-gap: 10px; 
+}
+
+.logo{
+    background-color: #ef9a9a;
+    min-height: 100px;
+    grid-column: 1/4;
+}
+
+.top-menu{
+    background-color: #f48fb1;
+    min-height: 100px;
+    grid-column: 4/10;
+}
+
+.left-menu{
+    background-color: #ce93d8;
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+
+.content-left{
+    background-color: #b39ddb;
+    grid-column: 4/8;
+    grid-row: 2/5;
+}
+
+.blocks{
+    background-color: #90caf9;
+}
+
+.footer{
+    background-color: #80deea;
+    grid-column: 1/10;
+}
