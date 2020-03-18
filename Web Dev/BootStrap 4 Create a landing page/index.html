@@ -9,13 +9,14 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Hello, world!</title>
 </head>
 
 <body data-spy="scroll" data-target="#navScrollspy">
   <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
-    <a href="#" class="navbar-brand">Cameo</a>
+    <a href="#" class="navbar-brand"><i class="fa fa-camera-retro" aria-hidden="true"></i> Cameo</a>
     <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -23,44 +24,44 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav" id="navScrollspy">
         <li class="nav-item">
-          <a href="#top" class="nav-link">To the top</a>
+          <a href="#section-jumbotron" class="nav-link">To the top</a>
         </li>
         <li class="nav-item">
-          <a href="#description" class="nav-link">Description</a>
+          <a href="#section-description" class="nav-link">Description</a>
         </li>
         <li class="nav-item">
-          <a href="trailer" class="nav-link">Trailer</a>
+          <a href="#section-trailer" class="nav-link">Trailer</a>
         </li>
         <li class="nav-item">
-          <a href="showcase" class="nav-link">Showcase</a>
+          <a href="#section-showcase" class="nav-link">Showcase</a>
         </li>
         <li class="nav-item">
-          <a href="features" class="nav-link">Features</a>
+          <a href="#section-features" class="nav-link">Features</a>
         </li>
         <li class="nav-item">
-          <a href="pricing" class="nav-link">Pricing</a>
+          <a href="#section-pricing" class="nav-link">Pricing</a>
         </li>
         <li class="nav-item">
-          <a href="reviews" class="nav-link">Reviews</a>
+          <a href="#section-reviews" class="nav-link">Reviews</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <section id="top" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
+  <section id="section-jumbotron" class="jumbotron jumbotron-fluid text-white d-flex justify-content-center align-items-center">
     <div class="container text-center">
       <h1 class="display-1 text-primary text-uppercase">Cameo</h1>
       <p class="display-4 d-none d-sm-block">Capture every moment</p>
       <p class="lead">Create stunning photos and videos by using the built-in features for enhancement</p>
       <p class="lead">Share your best shots with your friends and the rest of the world instantly</p>
       <p><strong>Download now on:</strong></p>
-      <a href="#" class="btn btn-lg btn-primary">App Store</a>
-      <a href="#" class="btn btn-lg btn-primary">Google Play</a>
+      <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-apple" aria-hidden="true"></i> App Store</a>
+      <a href="#" class="btn btn-lg btn-primary"><i class="fa fa-android" aria-hidden="true"></i> Google Play</a>
     </div>
   </section>
 
   <div class="container">
-    <section id="description">
+    <section id="section-description">
       <h2 class="display-4 text-center">What is Cameo?</h2>
       <p>Cameo is an innovative camera app for both iOS and Android that lets you capture the best moments in life
         either on still photos or video.
@@ -73,7 +74,7 @@
       </p>
     </section>
 
-    <section id="trailer">
+    <section id="section-trailer">
       <h2 class="display-4 text-center">Cameo trailer</h2>
       <p class="text-center">Watch our trailer video below to learn how Cameo works.</p>
       <div class="embed-responsive embed-responsive-16by9">
@@ -81,7 +82,7 @@
       </div>
     </section>
 
-    <section id="showcase">
+    <section id="section-showcase">
       <h2 class="display-4 text-center">Cameo in Action</h2>
       <p class="text-center">Examples of how and where you can use Cameo.</p>
       <div id="carousel" class="carousel slide" data-ride="carousel">
@@ -132,25 +133,29 @@
       </div>
     </section>
 
-    <section id="features">
+    <section id="section-features">
       <h2 class="display-4 text-center">Features</h2>
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+          <h1><i class="fa fa-paint-brush mb-4 text-info" aria-hidden="true"></i></h1>
           <h3 class="h4 mb-4 text-center">Enhance your photos</h3>
           <p>Easily enchance your photos with a selection of editing tools, filters and effects.</p>
           <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+          <h1><i class="fa fa-video-camera mb-4 text-info" aria-hidden="true"></i></h1>
           <h3 class="h4 mb-4 text-center">Also made for video</h3>
           <p>With Cameo you get dedicated video effects like slow motion, timelapse and transitions.</p>
           <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+          <h1><i class="fa fa-instagram mb-4 text-info" aria-hidden="true"></i></h1>
           <h3 class="h4 mb-4 text-center">Share for Instagram</h3>
           <p>You can easily share your photos with your friends and the rest of the world on Instagram.</p>
           <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center mb-5">
+          <h1><i class="fa fa-mobile mb-4 text-info" aria-hidden="true"></i></h1>
           <h3 class="h4 mb-4 text-center">Works on all devices</h3>
           <p>Cameo works on all platforms and all devices no matter the size of your screen.</p>
           <a href="#" class="btn btn-sm btn-info mt-auto">Read More...</a>
@@ -158,7 +163,7 @@
       </div>
     </section>
 
-    <section id="pricing">
+    <section id="section-pricing">
       <h2 class="display-4 text-center">Choose your plan</h2>
       <div class="row">
         <div class="col-12 col-md-4 mb-4">
@@ -171,8 +176,8 @@
               <p class="card-text">Perfect if you only take pictures for fun.</p>
             </div>
             <ul class="list-group">
-              <li class="list-group-item">Enhance your photos and videos</li>
-              <li class="list-group-item">Share on Instagram</li>
+              <li class="list-group-item"><i class="fa fa-paint-brush mb-4" aria-hidden="true"></i> Enhance your photos and videos</li>
+              <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
             </ul>
             <div class="card-footer text-center">
               <a href="#" class="btn btn-success btn-lg">Select Plan</a>
@@ -189,9 +194,9 @@
               <p class="card-text">Perfect if you're a semi-pro photographer.</p>
             </div>
             <ul class="list-group">
-              <li class="list-group-item">Enhance your photos and videos</li>
-              <li class="list-group-item">Share on Instagram</li>
-              <li class="list-group-item">Advanced settings</li>
+              <li class="list-group-item"><i class="fa fa-paint-brush mb-4" aria-hidden="true"></i> Enhance your photos and videos</li>
+              <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
+              <li class="list-group-item"><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> Advanced settings</li>
             </ul>
             <div class="card-footer text-center">
               <a href="#" class="btn btn-warning btn-lg">Select Plan</a>
@@ -208,10 +213,10 @@
               <p class="card-text">Perfect if you're a pro photographer.</p>
             </div>
             <ul class="list-group">
-              <li class="list-group-item">Enhance your photos and videos</li>
-              <li class="list-group-item">Share on Instagram</li>
-              <li class="list-group-item">Advanced settings</li>
-              <li class="list-group-item">Cloud Storage</li>
+              <li class="list-group-item"><i class="fa fa-paint-brush mb-4" aria-hidden="true"></i> Enhance your photos and videos</li>
+              <li class="list-group-item"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Share on Instagram</li>
+              <li class="list-group-item"><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> Advanced settings</li>
+              <li class="list-group-item"><i class="fa fa-fw-cloud" aria-hidden="true"></i> Cloud Storage</li>
             </ul>
             <div class="card-footer text-center">
               <a href="#" class="btn btn-danger btn-lg">Select Plan</a>
@@ -221,12 +226,12 @@
       </div>
     </section>
 
-    <section id="reviews">
+    <section id="section-reviews">
       <h2 class="display-4 text-center">Reviews</h2>
       <div class="row">
         <div class="col-12 col-md-6 col-xl-3">
           <blockquote class="blockquote p-3">
-            <p>This is the best camera app I have ever tried. I highly recommend Cameo!</p>
+            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>This is the best camera app I have ever tried. I highly recommend Cameo!<i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
             <footer class="blockquote-footer">
               Marc Johnson <time datetime="2017-06-15T14:35">(June 15 2017 14:35)</time>
             </footer>
@@ -234,9 +239,8 @@
         </div>
         <div class="col-12 col-md-6 col-xl-3">
           <blockquote class="blockquote p-3">
-            <p>I have never been able to take pictures in the darkness with good results before. Now I can with Cameo
-              and I
-              am so happy about that.</p>
+            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>I have never been able to take pictures in the darkness with good results before. Now I can with Cameo
+              and I am so happy about that.<i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
             <footer class="blockquote-footer">
               Hanna Eastwood <time datetime="2017-07-09T19:12">(July 09 2017 19:12)</time>
             </footer>
@@ -244,8 +248,8 @@
         </div>
         <div class="col-12 col-md-6 col-xl-3">
           <blockquote class="blockquote p-3">
-            <p>I have tried many different camera apps on the market, but with Cameo I am able to use the editing tools,
-              filters and effects that I want in a creative and easy way.</p>
+            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>I have tried many different camera apps on the market, but with Cameo I am able to use the editing tools,
+              filters and effects that I want in a creative and easy way.<i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
             <footer class="blockquote-footer">
               Anna Foster <time datetime="2017-09-01T11:19">(September 01 2017 11:19)</time>
             </footer>
@@ -253,9 +257,8 @@
         </div>
         <div class="col-12 col-md-6 col-xl-3">
           <blockquote class="blockquote p-3">
-            <p>I use the cloud storage feature of Cameo to have a backup of all my photos and videos. I find that
-              feature
-              incredibly valuable.</p>
+            <p><i class="fa fa-fw fa-quote-left text-secondary" aria-hidden="true"></i>I use the cloud storage feature of Cameo to have a backup of all my photos and videos. I find that
+              feature incredibly valuable.<i class="fa fa-fw fa-quote-right text-secondary" aria-hidden="true"></i></p>
             <footer class="blockquote-footer">
               Tim Stevens <time datetime="2017-08-12T09:43">(August 12 2017 8:43)</time>
             </footer>
@@ -265,7 +268,7 @@
     </section>
   </div>
 
-  <section class="bg-secondary">
+  <section id="section-newsletter" class="bg-secondary">
     <div class="container">
       <form class="py-5 text-white">
         <h2 class="text-center">Sign-up for our newsletter</h2>
@@ -361,11 +364,11 @@
         <div class="col-12 col-sm-6 col-lg-3">
           <h6>Quick links</h6>
           <ul class="list-unstyled">
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">LinkeddIn</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+            <li><a href="#"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i> LinkeddIn</a></li>
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-lg-3">
@@ -374,8 +377,8 @@
             <strong>Cameo</strong><br>
             350 5th Avenue<br>
             New York, NY 10118<br>
-            <abbr title="Telephone">T:</abbr> <a href="tel:+12127363100">(212) 736-3100</a><br>
-            <abbr title="Mail">M:</abbr> <a href="mailto:info@cameo.com">info@cameo.com</a>
+            <i class="fa fa-fw fa-phone" aria-hidden="true"></i><span class="sr-only">Telephone:</span><a href="tel:+12127363100">(212) 736-3100</a><br>
+            <i class="fa fa-fw fa-inbox" aria-hidden="true"></i><span class="sr-only">Mail:</span><a href="mailto:info@cameo.com">info@cameo.com</a>
           </address>
         </div>
       </div>
@@ -391,7 +394,7 @@
         <div class="col-12 col-sm-6 col-lg-3">
           <div class="dropdown dropup">
             <button class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">Change Language</button>
+              aria-haspopup="true" aria-expanded="false"><i class="fa fa-fw fa-language" aria-hidden="true"></i> Change Language</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a href="#" class="dropdown-item small px-1">English</a>
               <a href="#" class="dropdown-item small px-1">German</a>
@@ -413,6 +416,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+
+    <script type="text/javascript">
+      $(function () {
+	      var scroll = new SmoothScroll('a[href*="#section-"]');
+      })
+    </script>
 </body>
 
 </html>
