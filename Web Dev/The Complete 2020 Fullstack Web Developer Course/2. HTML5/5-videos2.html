@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Videos 2</title>
+</head>
+<body>
+    <button onclick="playOrPause()">Play or Pause</button>
+    <button onclick="bigScreen()">Big screen baby!</button>
+    <button onclick="normalScreen()">Just regular size for me</button>
+    <br>
+    <video id="lecture" width="300">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogg" type="video/ogg">
+            Your Browser is either old or doesn't support MP4 or OFF formats
+    </video>
+
+    <script type="text/javascript">
+    var lecture = document.getElementById('lecture');
+
+    function playOrPause(){
+        if (lecture.paused)
+            lecture.play();
+        else
+        lecture.pause();
+    }
+
+    function normalscreen() {
+        lecture.width=300;
+    }
+
+    function bigScreen() {
+        lecture.width=500;
+    }
+    </script>
+</body>
+</html>

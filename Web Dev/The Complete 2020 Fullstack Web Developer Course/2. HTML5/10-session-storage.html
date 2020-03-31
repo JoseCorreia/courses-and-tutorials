@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Storage</title>
+    <script>
+        if (typeOf(Storage) !=="undefined") {
+            //we can accept localStorage
+            alert('Accepted');
+        } else {
+            //we cannot accept localStorage
+            alert('No localStorage accepted')
+        }
+    </script>
+
+     <!--To store information in the browser using session storage-->
+    <script>
+        sessionStorage.myName = "José Correia";
+    </script>
+
+    <script>
+        function counter() {
+            if (typeOf(Storage) !=="undefined") {
+                if(sessionStorage.counter){
+                    sessionStorage.counter = Number (sessionStorage.counter)+1;
+                }
+            } else {
+                sessionStorage.counter = 1;
+            }
+            document.getElementById("number").innerHTML = sessionStorage.counter;
+            if(sessionStorage.counter>1){
+                document.getElementById("number").innerHTML+="<p>Refresh the page</p>";
+            }
+            else {
+                document.getElementById("number").innerHTML="Sorry, your browser does not " + "support web storage...";
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="counter()" type="button">Add another one!</button>
+    <div id="number"></div>
+</body>
+</html>

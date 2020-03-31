@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drag and Drop</title>
+
+    <script type="text/javascript">
+        function allowDrop(e) {
+            e.preventDefault ();
+            //Prevents the image from moving back to its natural area
+        }
+        function drag(e) {
+            e.dataTransfer.setData("Text",e.traget.id);
+            //allows the item to be dragged
+        }
+        function drop(e) {
+            e.preventDefault();
+            d = e.dataTransfer.getData("Text"); // d = Data
+            e.target.appendChild(document.getElementById(d));
+            // this code allows you to drop the item
+        }
+    </script>
+</head>
+<body>
+    <img draggable="true" id="dragMe" src="google.png" ondragstart="drag(event)" width="300" height="70">
+    <div ondrop="drop(event)" ondragover="allowdrop(event)" id="dropzone"></div>
+</body>
+</html>

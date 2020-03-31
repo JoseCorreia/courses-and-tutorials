@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Storage</title>
+</head>
+<body>
+    <!--To know that if your browser accepts local storage-->
+    <script>
+        if (typeof(Storage) !=="undefined") {
+            //we can accept localStorage
+            alert('Accepted');
+        }
+        else {
+            // we cannot accept localStorage
+            alert ('No localStorage accepted');
+        }
+    </script>
+
+    <!--To store information in the browser using local storage-->
+    <script>
+        localStorage.myName = "José Correia";
+    </script>
+
+    <!--To access this, we use localStorage.myName as our variable, and call it like so:-->
+    <script>
+        alert(localStorage.myName);
+    </script>
+</body>
+</html>
