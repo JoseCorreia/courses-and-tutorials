@@ -1,0 +1,23 @@
+div {
+    border-width: medium;
+    border-style: solid;
+    border-color: red;
+}
+
+.redBorder {
+    border-width: 2px 10px 5px;
+    border-style: dashed;
+    border-color: red;
+}
+
+.redBorder-left {
+    border-left-width: 2px 10px 5px;
+    border-left-style: dashed;
+    border-left-color: red;
+}
+
+.div2 {
+    border: medium solid red;
+}
+
+.border-right {border-right: 4px groove green;}

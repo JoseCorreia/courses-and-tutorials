@@ -1,0 +1,12 @@
+div {
+    width: 50%;
+    height: 50px;
+}
+
+.auto {width: auto;}
+.half {width: 50%;}
+.pixel {width: 200px;}
+
+.auto {height: auto;}
+.half {height: 50%;}
+.pixel {height: 200px;}

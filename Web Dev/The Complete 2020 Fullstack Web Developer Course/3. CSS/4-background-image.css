@@ -1,0 +1,33 @@
+div {
+    background-image: url(background.jpeg);
+    height: 60px;
+}
+
+.noImage {
+    background-image: none;
+}
+
+.inheritImage {
+    background-image: inherit;
+}
+
+.row {
+    /*Repeats from left to right */
+    background-image: url('star.png');
+    background-repeat: repeat-x;
+    width: 50px;
+    height: 50px;
+}
+
+.column {
+    background-image: url('star.png');
+    background-repeat: repeat-y;
+    width: 50px;
+    height: 50px;
+}
+
+.background-position {
+    background-image: url('star.png');
+    background-repeat: no-repeat;
+    background-position: center center; /* X and Y */
+}

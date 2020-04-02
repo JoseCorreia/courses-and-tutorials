@@ -1,0 +1,28 @@
+div.margin {
+    margin: 10px;
+    border: 1px solid red;
+}
+
+div.margin-left {
+    margin-left: 10px;
+    margin-top: 0em;
+    margin-bottom: 0cm;
+    margin-right: 0px;
+}
+
+div.padding {
+    padding: 10px;
+    border: 10px solid blue;
+}
+div.padding-left {
+    padding-left: 10px;
+    padding-top: 0em;
+    padding-bottom: 0cm;
+    padding-right: 0px;
+}
+
+div {padding: 0 10px 0 10px;}
+.div1 {padding: 0 10px;}
+
+p {margin: 0 10px 0 10px;}
+.p1{padding: 0 10px;}
