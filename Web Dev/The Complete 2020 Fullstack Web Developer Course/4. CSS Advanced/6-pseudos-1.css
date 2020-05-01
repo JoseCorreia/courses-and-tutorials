@@ -1,0 +1,14 @@
+/*First Child */
+div > u:first-child{
+    border:1px solid red;
+}
+
+/*First Letter*/
+p:first-letter{
+    font-size: 32px;
+}
+
+/*First Line*/
+body::first-line{
+    word-spacing: 15px;
+}

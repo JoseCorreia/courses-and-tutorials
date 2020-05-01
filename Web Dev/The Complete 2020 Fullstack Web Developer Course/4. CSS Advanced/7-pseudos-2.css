@@ -1,0 +1,24 @@
+/*Focus*/
+textarea:focus{
+    border: 2px solid black;
+}
+
+/*Lang(Value)*/
+div:lang(PT){
+    border: 1px solid red;
+}
+
+/*Before*/
+strong::before{
+    content: "NOTICE: ";
+}
+
+/*After*/
+span::after{
+    content: " Written by me!";
+}
+
+/*Using Both*/
+blockquote::before, blockquote::after{
+    content:  '"';
+}

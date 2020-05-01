@@ -1,0 +1,12 @@
+/* Grouping */
+#MyID, .blue, h1 {
+    color: blue;
+}
+
+/* Nesting */
+
+div button {
+    border: 0;
+    background-color: #000;
+    color: #f00;
+}

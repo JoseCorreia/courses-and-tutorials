@@ -1,0 +1,8 @@
+[lang=abc]{
+    border: 1px solid red;
+}
+
+option[name=dark]{
+    color: white;
+    background-color: black;
+}

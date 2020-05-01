@@ -1,0 +1,13 @@
+@media screen{
+    /*computer screen stuff*/
+}
+
+@media handheld{
+    /*mobile devices*/
+}
+@media print{
+    /*for printable pages*/
+}
+@media tv{
+    /*television-type devices*/
+}

@@ -1,0 +1,7 @@
+.cards{
+    background-image: url('sprite.png');
+    background-position: -17px -375px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 15px;
+}

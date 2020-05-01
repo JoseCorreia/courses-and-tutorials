@@ -1,0 +1,41 @@
+/*Absolute */
+#div1 {
+    background: red;
+    width: 200px;
+    height: 100px;
+}
+
+#div2 {
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+/*Relative*/
+#div3{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+#div4{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+
+/*Fixed*/
+#div5{
+    position: fixed;
+    top: 0;
+    left: 50px;
+}
+
