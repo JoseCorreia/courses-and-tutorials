@@ -1,0 +1,7 @@
+#image1{
+    border-width: 20px;
+    -moz-border-image: url('someImage.gif') 20% 20% 20% 20% repeat;
+    -webkit-border-image: url('someImage.gif') 20% 20% 20% 20% repeat;
+    -o-border-image: url('someImage.gif') 20% 20% 20% 20% repeat;
+    border-image: url('someImage.gif') 20% 20% 20% 20% repeat;
+}

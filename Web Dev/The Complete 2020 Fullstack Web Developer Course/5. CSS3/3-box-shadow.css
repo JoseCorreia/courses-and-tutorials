@@ -1,0 +1,20 @@
+#box1{
+    box-shadow: 10px 10px;
+    background-color: red;
+}
+
+#box2{
+    box-shadow: 10px 10px 50px;
+    background-color: red;
+}
+
+#box3{
+    box-shadow: 10px 10px 25px 10px;
+    background-color: red;
+}
+
+#box4{
+    box-shadow: 10px 10px 25px 10px blue;
+    background-color: red;
+}
+
